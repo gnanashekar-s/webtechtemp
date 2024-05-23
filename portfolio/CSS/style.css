@@ -1,0 +1,287 @@
+/* Start Global Styling*/
+:root {
+	--main-color: #ea494b;
+}
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #000000;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button:hover {
+	background-color: #a73234;
+}
+/*End Global Styling*/
+/*Start Header*/
+.header {
+	width: 100%;
+	height: 10vh;
+	background-color: #262626;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.header .logo {
+	float: left;
+	margin-top: -5px;
+	margin-left: 2%;
+	margin-right: 56%;
+	padding: 20px;
+	font-weight: bold;
+}
+.header .navBar {
+	float: left;
+	padding: 25px;
+}
+.navBar li {
+	float: left;
+	margin-right: 25px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.navBar li a:hover {
+	color: var(--main-color);
+}
+.clear {
+	clear: both;
+}
+/*End Header*/
+/*Start Landing*/
+.home {
+	width: 100vw;
+	height: 60vh;
+	padding-top: 200px;
+	text-align: center;
+}
+.home h1 {
+	font-size: 48px;
+	letter-spacing: 3.5px;
+	font-weight: 800;
+	color: white;
+}
+.home h1 > span {
+	color: var(--main-color);
+}
+.home p {
+	font-size: 28px;
+	font-weight: 700;
+	color: white;
+}
+.home p > span {
+	color: #8b8b8b;
+}
+.home button {
+	background-color: #ea494b;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+/*End Header*/
+/*Start About*/
+.about {
+	height: 89vh;
+}
+
+.aboutInfo {
+	display: inline-block;
+	width: 40%;
+	color: white;
+	margin-top: 20%;
+	margin-left: 50%;
+}
+.aboutInfo h1 {
+	font-size: 42px;
+	letter-spacing: 3.5px;
+	font-weight: 800;
+	color: white;
+	margin-bottom: -5px;
+}
+.aboutInfo h1 > span {
+	color: var(--main-color);
+}
+.aboutInfo .title {
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(95, 95, 95, 0.4);
+}
+.aboutInfo .title > span {
+	color: #8b8b8b;
+}
+.aboutInfo .bio {
+	font-size: 20px;
+	line-height: 1.4;
+	color: #8b8b8b;
+	padding-bottom: 15px;
+}
+.aboutInfo .bio > span {
+	color: white;
+}
+.aboutInfo button {
+	background-color: #ea494b;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+/*End About*/
+/*Start Portfolio*/
+.portfolio h1 {
+	font-size: 38px;
+	letter-spacing: 3.5px;
+	font-weight: 800;
+	color: white;
+	margin-left: 35px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(95, 95, 95, 0.4);
+}
+.portfolio h1 > span {
+	color: var(--main-color);
+}
+.portContent {
+	width: 73%;
+	margin: 40px auto;
+}
+.portContent img {
+	width: 350px;
+	height: 350px;
+	border-radius: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+/*End Portfolio*/
+/*Start News*/
+.news h1 {
+	font-size: 38px;
+	letter-spacing: 3.5px;
+	font-weight: 800;
+	color: white;
+	margin-left: 35px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(95, 95, 95, 0.4);
+}
+.news h1 > span {
+	color: var(--main-color);
+}
+.newsContent {
+	margin-top: 40px;
+	margin-left: 300px;
+}
+.newBlog {
+	width: 300px;
+	background-color: #212121;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 20px;
+}
+.newBlog img {
+	width: 100%;
+	background-color: #212121;
+}
+.newBlog div {
+	padding: 5px 20px;
+}
+.newBlog p {
+	color: #8b8b8b;
+}
+/*End News*/
+/*Start Contact*/
+.contact h1 {
+	font-size: 38px;
+	letter-spacing: 3.5px;
+	font-weight: 800;
+	color: white;
+	margin-left: 35px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(95, 95, 95, 0.4);
+}
+.contact h1 > span {
+	color: var(--main-color);
+}
+.contactInfo {
+	margin-top: 100px;
+	margin-left: 250px;
+}
+.contactInfo p {
+	color: white;
+	background-color: #212121;
+	width: 350px;
+	padding: 20px 25px;
+	border-radius: 15px;
+	font-size: 20px;
+}
+.contactInfo i {
+	color: var(--main-color);
+	margin-right: 10px;
+	font-size: 20px;
+}
+.contact form {
+	margin-top: -333px;
+	margin-left: 800px;
+}
+.contact form div > input:nth-child(1),
+.contact form div > input:nth-child(2) {
+	color: #a2a2a2;
+	background-color: #212121;
+	outline-style: none;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: #212121;
+	width: 180px;
+	padding: 20px 20px;
+	border-radius: 15px;
+	margin-right: 100px;
+}
+.contact form div > textarea {
+	color: #a2a2a2;
+	display: block;
+	background-color: #212121;
+	outline-style: none;
+	border: none;
+	font-size: 20px;
+	color: white;
+	background-color: #212121;
+	width: 510px;
+	border-radius: 15px;
+	padding: 20px;
+	height: 100px;
+	resize: none;
+	margin-top: 50px;
+}
+.contact form input:nth-child(3) {
+	background-color: #ea494b;
+	color: white;
+	font-size: 20px;
+	padding: 10px 40px;
+	border-radius: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.contact form input:nth-child(3):hover {
+	background-color: #d43c3e;
+}
+/*End Contact*/
